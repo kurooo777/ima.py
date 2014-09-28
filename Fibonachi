@@ -1,0 +1,12 @@
+def fib():
+    fib1=1
+    fib2=1
+    n=input("введите число n")
+    i=2
+    while i<n:
+        fibsum=fib2+fib1
+        fib1=fib2
+        fib2=fibsum
+        i=i+1
+    print fibsum
+fib()
